@@ -1,0 +1,32 @@
+# Caleb and Jacob
+
+joe = ""
+grade = 0
+total = 0.0
+counter = 0
+avg = 0.0
+
+while(grade != -1):
+    grade=  input("Enter Grade (-1 to quit):: ")
+    counter+=1
+    total+=grade
+  
+  
+counter = counter - 1
+total = total + 1
+avg = total * 1.0 /counter
+
+
+print
+print "Average:: ", avg
+
+if avg > 90 and avg < 100:
+    print "Letter Grade:: A", 
+if avg > 80 and avg < 90:
+    print "Letter Grade:: B",
+if avg > 70 and avg < 80:
+    print "Letter Grade:: C",
+if avg > 60 and avg < 70:
+    print "Letter Grade:: D",
+if avg > 0 and avg < 60:
+    print "Letter Grade:: F",
