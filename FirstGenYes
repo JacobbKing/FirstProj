@@ -1,4 +1,9 @@
 # Caleb and Jacob
+#12/09/18
+#Purpose: Completing a rough GenYes assignment
+
+#This Part is all caleb, making the correct variables so that we can calcualte
+#average and show the test scores later in the program
 
 joe = ""
 grade = 0
@@ -16,6 +21,7 @@ counter = counter - 1
 total = total + 1
 avg = total * 1.0 /counter
 
+#This Part is all Jacob, calculating and printing everything for the correct output
 
 print
 print "Average:: ", avg
